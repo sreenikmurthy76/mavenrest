@@ -19,7 +19,7 @@ public class Hello{
 	 @Produces(MediaType.TEXT_HTML)
 	 public String sayHelloInHtml(@QueryParam("name") String name, @QueryParam("address") String address) {
 	   return "<html> " + "<title>" + "hello" +  "</title>"
-	 + "<body><h1> Hi brother " + name + "living in the area of" + address + "</body></h1>" + "</html> ";
+	 + "<body><h1> Hi tambi " + name + "living in the area of" + address + "</body></h1>" + "</html> ";
 	 }
 
 	 	
